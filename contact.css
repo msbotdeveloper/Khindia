@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    display: inline-block;
+}
+#container{
+    width: 600px;
+    background-color: white;
+    height: 650px;
+    position: left;
+    left: 0;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+#contact_from{
+    height: 650px;
+    width:700px;
+    display: inline block;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    right: 10px;
+
+}
+#location_from{
+    height: fit-content;
+    width: 500px;
+    background-color: bisque;
+    border: solid black;  
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px 0 15px 0;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+i{
+    margin: 2px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#contac2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    padding-left: 10%;
+    letter-spacing: 2px;
+}
+#location_from1{
+    height: fit-content;
+    width: 500px;
+    background-color: bisque;
+    border: solid black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px 0 15px 0;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+#no{
+    margin-left:10px ;
+    display: inline-block;
+    font-weight: 600;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+h1{
+    font-weight: 700;
+    color: blue;
+    text-align: left;
+    margin: 10px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+form{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    right: 20%;
+    text-align: left;
+}
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+textarea{
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+button{
+    
+        margin: 20px;
+        height: auto;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        margin-left: 50%;
+        width: 150px;
+        background-color: royalblue;
+        padding: 10px 15px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-style: double;
+        border-radius: 5px;
+        animation: colorChange 12s infinite;
+        letter-spacing: 2px;
+}
+button:hover{
+ background-color: lightgreen;
+ color: red;
+ border-color: red;
+}
+#box1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 6px ;
+    
+}
+#box2{
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+   
+}
+#phone{
+    margin-top: 10px;
+}
+
+/* ... [Your existing CSS styles] ... */
+
+/* Media query for small devices */
+@media screen and (max-width: 768px) {
+    
+    #container {
+        padding: 5px;
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    #contact_from {
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin: 10px 0;
+    }
+
+    #location_from, #location_from1 {
+        width: fit-content;
+        position: relative;
+        left: 0;
+       top: 0;
+       margin:20px;
+       padding: 2px;
+        
+    }
+
+    form {
+        right: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    input {
+        width: 300px;
+        height: 20px;
+    }
+
+    #box1{
+        right: 2%;
+        margin-top: 49px;
+    }
+    #box2{
+        margin-top: 55px;   
+    }
+    h1{
+        font-size: 32px;
+    }
+    i{
+        font-size: 16px;
+        margin-left: 5px;
+
+    }
+    p{
+        font-size: 12px;
+    }
+    #contac2{
+        font-size: 12px;
+        left: 10px;
+    }
+    .fa-phone::after{
+        font-size: 12px;
+        margin: 10px;
+    }
+    #mess{
+        height: 80px;
+        width: 300px;
+    
+    }
+}
+

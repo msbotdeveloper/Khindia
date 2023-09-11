@@ -1,0 +1,362 @@
+body{
+    background-image: url("/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #333;
+}
+
+section{
+    height: 150vh;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .background {
+        background-size:cover;
+        background-attachment: fixed;
+    }
+}
+#ab{background-color: #04AA6D;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;}
+#service{background-color: #20B2AA;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;}
+#contact_01{background-color: #555;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;}
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px;
+    text-align: right;
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    font-weight: 400;
+    color: white; /* White text color */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+}
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+#logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+    background-color: black;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#t{
+    color: blue;
+    font-weight: 700;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: 100px;
+}
+h3{
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-left: 80px;
+}
+h1{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 0 5px  5px 5px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+@keyframes typewriter {
+    0% { width: 0; }
+    50% { width: 100%; }
+    100% { width: 0; }
+}
+
+#to {
+    margin-left: 120px;
+    height: auto;
+    width: 500px;
+    color: royalblue;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: .15em solid black; Cursor */
+    animation: typewriter 11s steps(110,end) infinite, blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% { border-color: transparent }
+    50% { border-color: black; }
+}
+#bu{
+    margin: 20px;
+    height: auto;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-left: 50%;
+    width: 150px;
+    background-color: #1E3A8A;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-style: double;
+    border-radius: 5px;
+    animation: colorChange 12s infinite;
+    letter-spacing: 2px;
+}
+#bu:hover{
+    background-color: #3B82F6;
+    
+   
+}
+@keyframes colorChange {
+    0%   { border-color: blue; }        /* Start with blue */
+    17%  { border-color: turquoise; }   /* Transition to turquoise */
+    34%  { border-color: green; }       /* Transition to green */
+    51%  { border-color: yellow; }      /* Transition to yellow */
+    68%  { border-color: orange; }      /* Transition to orange */
+    85%  { border-color: purple; }      /* Transition to purple */
+    100% { border-color: blue; } 
+}
+#a{
+    height: fit-content;
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px 0 10px 0;
+    background-color: burlywood;
+    color: blue;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    animation: bo 12s infinite;
+    border-style: solid ;
+}
+@keyframes bo {
+    0%   { border-color: blue; }        /* Start with blue */
+    17%  { border-color: rgb(30, 203, 185); }   /* Transition to turquoise */
+    34%  { border-color: rgb(6, 131, 188); }       /* Transition to green */
+    51%  { border-color: rgb(27, 48, 242); }      /* Transition to yellow */
+    68%  { border-color: rgb(14, 198, 222); }      /* Transition to orange */
+    85%  { border-color: rgb(8, 130, 192); }      /* Transition to purple */
+    100% { border-color: blue; } 
+}
+#ser{
+    height: fit-content;
+    width: 700px;
+    background-color:#08a39b;
+    margin-left:20%;
+    border-radius: 10px 0 10px 0;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-color: black;
+    border-style: groove;
+
+}
+#s1{
+    color: #004D40;
+    font-size: 28px;
+}
+#contentbox1{
+    height: 200px;
+    width: fit-content;
+    margin: 20px;
+    display: inline-block;
+}
+#imgage{
+    height: 300px;
+    width: fit-content;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px 0 10px 0;
+}
+#contentbox2{
+    height: fit-content;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20%;
+    background-color:#08a39b;
+    border : solid black;
+    display: inline-block;
+    border-radius:10px 0 10px 0 ;
+    
+}
+i{
+    color: #555;
+    font-weight: 600;
+    
+}
+li{
+    color: white;
+}
+b{
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: blue;
+}
+#contac1{
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F5F5F5;
+    border: solid red;
+    border-radius: 10px 0 10px 0;
+    display: inline-block;
+}
+#contact2{
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: solid red;
+    border-radius: 10px 0 10px 0;
+    display: inline-block;
+}
+p{
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+#contact3{
+    height: 70px;
+    width: 50%;
+    background-color: burlywood;
+    border: #f44336 solid;
+    border-radius: 10px 0 10px 0;
+    margin: 10%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#co1{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top:20px;
+    font-size: larger;
+    
+}
+i.fab, i.fas {
+    color: #333; /* or any color you prefer */
+}
+
+/* small device */
+@media (max-width: 768px) {
+    section {
+        height: auto; /* Allows content to define the height instead of a fixed height */
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #t {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #to {
+        margin: 0;
+        width: 80%; /* Allow it to adjust to the viewport */
+        color: rebeccapurple;
+    }
+    #to::after{
+        content: "to all your need...";
+        display: block;
+    }
+
+    #bu {
+        margin-left: 25%; /* Center the button more */
+    }
+
+    #a {
+        width: 85%; /* Allow it to adjust to the viewport */
+        margin: 0; /* Center the container */
+    }
+
+    #ser {
+        width: 85%; /* Allow it to adjust to the viewport */
+        margin-left: 7.5%; /* Center the container */
+    }
+
+    #contentbox1, #contentbox2 {
+        width: 85%; /* Allow them to adjust to the viewport */
+        margin: 10px auto; /* Center the containers */
+    }
+
+    #imgage {
+        width: 85%; /* Adjust image to viewport */
+        height: auto;
+    }
+
+    #contac1, #contact2 {
+        width: 85%; /* Adjust the width */
+        margin: 10px auto; /* Center the boxes */
+    }
+    
+
+    p {
+        font-size: 16px; /* Make the text a bit smaller */
+        margin: 10px;    /* Reduce margin */
+    }
+
+    #contact3 {
+        width: 90%; /* Adjust the width */
+        margin: 5% auto; /* Center the container */
+    }
+
+    #mySidenav a {
+        width: 60px; /* Reduce width for smaller screens */
+        font-size: 16px; /* Reduce font size */
+    }
+    #co1{
+        margin-left: 20%;
+        display: inline-block;
+    }
+}
+
