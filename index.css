@@ -334,7 +334,7 @@ i.fab, i.fas {
         height: auto;
     }
 
-    #contac1, #contact2 {
+    #contac1 {
         width: 85%; /* Adjust the width */
         margin: 10px auto; /* Center the boxes */
     }
@@ -357,6 +357,19 @@ i.fab, i.fas {
     #co1{
         margin-left: 20%;
         display: inline-block;
+    }
+    #contact2 {
+        position: relative;
+    padding-bottom: 75%;  /* Aspect ratio: For a 4:3 aspect ratio, you can use 75%. Adjust as needed. */
+    height: 0;
+    overflow: hidden;
+    }
+    #contact2 iframe {
+         position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     }
 }
 
