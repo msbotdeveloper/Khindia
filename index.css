@@ -359,12 +359,6 @@ i.fab, i.fas {
         display: inline-block;
     }
     #contact2 {
-        position: relative;
-    padding-bottom: 75%;  /* Aspect ratio: For a 4:3 aspect ratio, you can use 75%. Adjust as needed. */
-    height: 0;
-    overflow: hidden;
-    }
-    #contact2 {
        width: 100%;         /* Make it span the full width on small devices */
         height: auto;        /* Adjust height to content */
         padding: 10px;
