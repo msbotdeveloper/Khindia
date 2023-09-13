@@ -359,8 +359,8 @@ i.fab, i.fas {
         display: inline-block;
     }
     #contact2 {
-        width: 50%; /* Adjust the width */
-        margin:5px;
+        width:150px;
+        margin:10px auto;
         padding:2px;
         
         
