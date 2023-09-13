@@ -359,11 +359,12 @@ i.fab, i.fas {
         display: inline-block;
     }
     #contact2 {
-        width:150px;
-        margin:10px auto;
-        padding:2px;
-        
-        
+      width: 85%; /* Adjust the width */
+        margin: 10px auto; /* Center the boxes */  
+    }
+    iframe{
+        width:200px;
+        margin:10px;
     }
 }
 
