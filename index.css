@@ -359,9 +359,10 @@ i.fab, i.fas {
         display: inline-block;
     }
     #contact2 {
-        width: 75%; /* Adjust the width */
-        margin: 7px auto; /* Center the boxes */
-        margin-left:5px;
+        width: 50%; /* Adjust the width */
+        margin:5px;
+        padding:2px;
+        
         
     }
 }
