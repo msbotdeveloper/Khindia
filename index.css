@@ -364,12 +364,10 @@ i.fab, i.fas {
     height: 0;
     overflow: hidden;
     }
-    #contact2 iframe {
-         position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    #contact2 {
+       width: 100%;         /* Make it span the full width on small devices */
+        height: auto;        /* Adjust height to content */
+        padding: 10px;
     }
 }
 
